@@ -1,0 +1,33 @@
+@font-face {
+   font-family: Ubuntu;
+   src: url(http://fonts.gstatic.com/s/ubuntu/v9/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2');
+}
+
+* {
+   font-family: Ubuntu;
+}
+
+#profile-img {
+   width: 120px;
+   height: auto;
+}
+
+div.main {
+   width: 60%;
+   margin: 0 auto;
+}
+
+div.profile-heading {
+   display: grid;
+   grid-template-columns: 15% 85%;
+   grid-col-gap: 5px;
+}
+
+div.profile-img {
+   margin: 0 auto;
+}
+
+.font-mono {
+   font-family: Ubuntu Mono, monospace, courier;
+}
+
